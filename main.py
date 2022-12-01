@@ -1,9 +1,9 @@
 # CALCULATOR CODE
 
 print("CALCULATOR")
-num1 = input("Insert a number: ")
-variable = input("Insert a variable(+, -, *, /): ")
-num2 = input("Insert a number: ")
+num1 = input("Insert first number: ")
+variable = input("Insert (+, -, *, /): ")
+num2 = input("Insert second number: ")
 
 add = float(num1) + float(num2)
 subtract = float(num1) - float(num2)
@@ -23,4 +23,4 @@ elif variable == "/":
     print(divide)
 
 else:
-    print("Error: Invalid input")
+    print("Invaild input. Please try again!")
