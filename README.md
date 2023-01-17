@@ -1,2 +1,3 @@
 # Calculator-Python
-This is a Python Calculator.
+This is a Simple Python Calculator.
+Feel Free to Use
