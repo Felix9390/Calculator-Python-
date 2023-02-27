@@ -1,26 +1,30 @@
-# CALCULATOR CODE
+# Calculator
 
-print("CALCULATOR")
-num1 = input("Insert first number: ")
-variable = input("Insert (+, -, *, /): ")
-num2 = input("Insert second number: ")
+name = "Calculator"
+print(name.upper())
 
-add = float(num1) + float(num2)
-subtract = float(num1) - float(num2)
-multiply = float(num1) * float(num2)
-divide = float(num1) / float(num2)
+num1 = input("Insert a number")
+variable = input("+,-,*,/")
+num2 = input("Insert a number")
 
-if variable == "+":
-    print (add)
+addition = float(num1) + float(num2)
+subtraction = float(num1) - float(num2)
+multiplication = float(num1) * float(num2)
+division = float(num1) / float(num2)
 
-elif variable == "-":
-        print(subtract)
-
-elif variable == "*":
-    print(multiply)
-
-elif variable == "/":
-    print(divide)
+if variable == '+':
+    print("Answer: " + str(addition))
+    
+elif variable == '-':
+      print("Answer: " + str(subtraction))
+      
+elif variable == '*':
+      print("Answer: " + str(multiplication))
+      
+elif variable == '/':
+      print("Answer: " + str(division))
+      
 
 else:
-    print("Invaild input. Please try again!")
+    print("Error: Invaild Input")
+      
